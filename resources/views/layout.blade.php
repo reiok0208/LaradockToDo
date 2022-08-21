@@ -18,14 +18,13 @@
                 @if (Auth::check())
                     <span class="my-navbar-item">ようこそ, {{ Auth::user()->name }}さん</span>
                     ｜
-                    <form method="POST" action="{{ route('logout') }}">
+                    <form method="POST" action="{{ route('logout') }}" style="float: right;">
                         @csrf
-
-                        <x-dropdown-link :href="route('logout')" id="logout" class="my-navbar-item"
+                        <a href="route('logout')" class="my-navbar-item"
                                 onclick="event.preventDefault();
                                             this.closest('form').submit();">
                             {{ __('Log Out') }}
-                        </x-dropdown-link>
+                        </a>
                     </form>
                 @else
                     <a class="my-navbar-item" href="{{ route('login') }}">ログイン</a>
