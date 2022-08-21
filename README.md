@@ -11,7 +11,7 @@
 # ToDoアプリ
 
 ## 環境
-MAMP/MySQL/PHP
+Docker/PostgreSQL/PHP
 
 ## 参考
 
