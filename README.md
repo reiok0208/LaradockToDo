@@ -14,4 +14,6 @@
 MAMP/MySQL/PHP
 
 ## 参考
-<a href="https://www.hypertextcandy.com/laravel-tutorial-introduction">
+
+入門Laravelチュートリアル  
+https://www.hypertextcandy.com/laravel-tutorial-introduction
